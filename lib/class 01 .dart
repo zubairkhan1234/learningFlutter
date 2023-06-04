@@ -1,9 +1,9 @@
 
-
+// In first in this class, I have learned how can I write a program in Dart, and as well as blew topics
 
 import 'dart:io';
 
-  // in this class, I have learned how can I write a program in Dart, and as well as these topics
+
   // 1. how can I create a dart file
   // 2. how can I write main function in dart
   // 3. how can I show a value in the console using print
