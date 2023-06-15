@@ -12,6 +12,16 @@ import 'dart:io';
 
 void main () {
   print('hello');
-  var name = stdin.readLineSync();
-  stdout.write("you entered this name : $name");
+  String? width = stdin.readLineSync();
+  String? height = stdin.readLineSync();
+
+  if((width != null) && (height != null)){
+    int.parse(width);
+    int.parse(height);
+    if(width == height){
+      print('Square');
+    }else{
+      print('rectangle');
+    }
+  }
 }
