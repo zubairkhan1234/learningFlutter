@@ -47,4 +47,12 @@ void main() {
   print('added one item at 0 index using insert method  $fruitName');
 
 
+  print('lentgth ${fruitName.length}');
+  print('Reversed ${fruitName.reversed}');
+  print('First ${fruitName.first}');
+  print('Last ${fruitName.last}');
+  print('is Empty ${fruitName.isEmpty}');
+  print('Is Not Empty ${fruitName.isNotEmpty}');
+  print('At specific element ${fruitName.elementAt(1)}');
+
 }
