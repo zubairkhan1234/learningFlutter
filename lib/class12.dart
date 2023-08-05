@@ -25,9 +25,21 @@ class Person {
 
 }
 
-
-class Teacher {
+class Schools {
+  List<Map> list = [{
+    'SchoolName':"",
+    "SchoolsRegNumber"  : "",
+    "SchoolAddress": ""
+  }
+  ];
 
 }
 
-class
+class Teacher extends Schools {
+
+}
+
+class Student {
+
+}
+
