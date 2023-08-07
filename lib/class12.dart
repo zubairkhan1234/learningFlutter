@@ -39,7 +39,7 @@ class Teacher extends Schools {
 
 }
 
-class Student {
+class Student extends Teacher {
 
 }
 
